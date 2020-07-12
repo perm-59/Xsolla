@@ -1,0 +1,167 @@
+.wrap-block {
+  padding:  50px 50px 50px 50px;
+}
+
+.wrap-block-select {
+  display: flex;
+  align-items: center;
+}
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.tab {
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.box-sel-city-flex {
+  display: flex;
+  align-items: center;
+}
+
+.box-sel-city-flex__text {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.flex-container-position{
+  position: relative;
+}
+
+.tab_number{
+  position: absolute;
+  top: 50px;
+  left: 42px;
+  border: 2px solid #ffffff;
+  padding: 5px 20px 10px 20px;
+  font-size: 48px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.tab__name {
+  position: absolute;
+  color: #ffffff;
+  bottom: 42px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 66px;
+  left: 40px;
+}
+
+@media screen and (max-width: 1315px) {
+  .tab {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .tab {
+    width: 400px;
+    height: 200px;
+  }
+  .tab_number{
+    top: 30px;
+    left: 35px;
+    padding: 0px 8px 0px 9px ;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+  .tab__name {
+    bottom: 0;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .tab {
+    width: 350px;
+    height: 150px;
+  }
+  .tab_number{
+    top: 30px;
+    left: 35px;
+    padding: 0px 8px 0px 9px ;
+    font-size: 35px;
+    border-radius: 10px;
+  }
+  .tab__name {
+    bottom: -10px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .tab {
+    width: 500px;
+    height: 300px;
+  }
+  .tab__name {
+    bottom: -10px;
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .tab {
+    width: 400px;
+    height: 200px;
+  }
+  .tab__name {
+    bottom: -10px;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .tab {
+    width: 400px;
+    height: 200px;
+  }
+  .tab__name {
+    bottom: -10px;
+    font-size: 35px;
+  }
+
+  .wrap-block-select {
+    display: block;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .tab {
+    width: 300px;
+    height: 150px;
+  }
+  .tab__name {
+    bottom: -10px;
+    font-size: 15px;
+  }
+
+  .wrap-block-select {
+    display: block;
+    align-items: center;
+  }
+}
